@@ -4,74 +4,89 @@
     <meta charset="UTF-8">  
     <meta name="viewport" content="width=device-width, initial-scale=1.0">   
     <title>Eko Kitchen Menu - Authentic Yoruba Delicacies</title> 
+    <!-- Google Fonts link to load Roboto font family -->
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Correctly linked to styles.css per instructions -->
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>   
+<body class="menu-page">   
 
-    <h1>Eko Kitchen Menu</h1>
-    <p>Authentic Yoruba flavors right in the heart of Lagos.</p>
+    <!-- Added a navbar to satisfy the inline menu requirement -->
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li class="nav-item"><a href="#appetizers" class="nav-link">Appetizers</a></li>
+            <li class="nav-item"><a href="#main-courses" class="nav-link">Main Courses</a></li>
+            <li class="nav-item"><a href="#desserts" class="nav-link">Desserts</a></li>
+        </ul>
+    </nav>
+
+    <h1 class="main-title">Eko Kitchen Menu</h1>
+    <p class="subtitle">Authentic Yoruba flavors right in the heart of Lagos.</p>
 
     <!-- APPETIZERS SECTION -->
-    <h2>Appetizers</h2>  
-    <ul>     
-        <li>          
-            <strong>Asun (Spicy Peppered Goat Meat)</strong>       
-            <p>Delectable bite-sized pieces of goat meat, grilled and sautéed in hot habanero peppers and onions.</p> 
-            <img src="https://plus.unsplash.com/premium_photo-1664360228209-bb15b0c5be8f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Spicy grilled meat" width="400">
+    <h2 id="appetizers" class="section-heading">Appetizers</h2>  
+    <ul class="menu-list">     
+        <li class="menu-item">          
+            <strong class="item-name">Asun (Spicy Peppered Goat Meat)</strong>       
+            <p class="item-description">Delectable bite-sized pieces of goat meat, grilled and sautéed in hot habanero peppers and onions.</p> 
+            <img class="item-image" src="https://plus.unsplash.com/premium_photo-1664360228209-bb15b0c5be8f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Spicy grilled meat" width="400">
         </li>    
-        <li>          
-            <strong>Akara (Bean Cakes)</strong>       
-            <p>Golden, crispy deep-fried bean cakes made from peeled black-eyed peas, onions, and fresh spices.</p> 
-            <img src="https://images.unsplash.com/photo-1665833613236-7c1d087463b1?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Crispy deep-fried bean balls" width="400">
+        <li class="menu-item">          
+            <strong class="item-name">Akara (Bean Cakes)</strong>       
+            <p class="item-description">Golden, crispy deep-fried bean cakes made from peeled black-eyed peas, onions, and fresh spices.</p> 
+            <img class="item-image" src="https://images.unsplash.com/photo-1665833613236-7c1d087463b1?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Crispy deep-fried bean balls" width="400">
         </li>    
-        <li>          
-            <strong>Moin Moin (Steamed Bean Pudding)</strong>       
-            <p>Rich, savory steamed bean pudding blended with peppers, onions, and enriched with boiled eggs.</p> 
-            <img src="https://images.unsplash.com/photo-1661588669110-81142a5b9e57?q=80&w=327&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Steamed gourmet pudding" width="400">
+        <li class="menu-item">          
+            <strong class="item-name">Moin Moin (Steamed Bean Pudding)</strong>       
+            <p class="item-description">Rich, savory steamed bean pudding blended with peppers, onions, and enriched with boiled eggs.</p> 
+            <img class="item-image" src="https://images.unsplash.com/photo-1661588669110-81142a5b9e57?q=80&w=327&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Steamed gourmet pudding" width="400">
         </li>    
     </ul>  
 
     <!-- MAIN COURSES SECTION -->
-    <h2>Main Courses</h2> 
-    <ul>   
-        <li>      
-            <strong>Amala with Ewedu & Gbegiri</strong>     
-            <p>Traditional soft yam flour swallow served with smooth jute leaf soup, rich local bean soup, and spicy pepper sauce (Obe Ata).</p>   
-            <img src="https://images.unsplash.com/photo-1763048443535-1243379234e2?q=80&w=672&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Traditional African swallow dish" width="400">
+    <h2 id="main-courses" class="section-heading">Main Courses</h2> 
+    <ul class="menu-list">   
+        <li class="menu-item">      
+            <strong class="item-name">Amala with Ewedu & Gbegiri</strong>     
+            <p class="item-description">Traditional soft yam flour swallow served with smooth jute leaf soup, rich local bean soup, and spicy pepper sauce (Obe Ata).</p>   
+            <img class="item-image" src="https://images.unsplash.com/photo-1763048443535-1243379234e2?q=80&w=672&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Traditional African swallow dish" width="400">
         </li>     
-        <li>      
-            <strong>Eba with Efo Riro</strong>     
-            <p>Pan-fried cassava flakes dough paired with a rich, aromatic rich spinach stew cooked with locust beans, stockfish, and assorted meats.</p>   
-            <img src="https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Rich vegetable spinach stew" width="400">
+        <li class="menu-item">      
+            <strong class="item-name">Eba with Efo Riro</strong>     
+            <p class="item-description">Pan-fried cassava flakes dough paired with a rich, aromatic rich spinach stew cooked with locust beans, stockfish, and assorted meats.</p>   
+            <img class="item-image" src="https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Rich vegetable spinach stew" width="400">
         </li>     
-        <li>      
-            <strong>Smokey Lagos Jeylof Rice</strong>     
-            <p>Iconic party-style long grain rice cooked in a savory, smoky tomato and bell pepper broth, served with fried plantains (Dodo).</p>   
-            <img src="https://plus.unsplash.com/premium_photo-1694141252774-c937d97641da?q=80&w=388&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Spicy seasoned rice dish" width="400">
+        <li class="menu-item">      
+            <strong class="item-name">Smokey Lagos Jeylof Rice</strong>     
+            <p class="item-description">Iconic party-style long grain rice cooked in a savory, smoky tomato and bell pepper broth, served with fried plantains (Dodo).</p>   
+            <img class="item-image" src="https://plus.unsplash.com/premium_photo-1694141252774-c937d97641da?q=80&w=388&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Spicy seasoned rice dish" width="400">
         </li>     
     </ul>   
 
     <!-- DESSERTS SECTION -->
-    <h2>Desserts</h2>  
-    <ul>     
-        <li>    
-            <strong>Sweet Fried Plantain (Dodo Cube Sweetener)</strong>     
-            <p>Perfectly caramelized, over-ripe sweet plantain cubes dusted with a pinch of cinnamon sugar.</p>    
-            <img src="https://media.istockphoto.com/id/1448028211/photo/food-photos-various-entrees-appetizers-deserts-etc.jpg?s=1024x1024&w=is&k=20&c=yJXG097jPAmYUrPoX6O7InmOWZGaJcXXdZanBI7r4UE=" alt="Sweet fried plantain slices" width="400">
+    <h2 id="desserts" class="section-heading">Desserts</h2>  
+    <ul class="menu-list">     
+        <li class="menu-item">    
+            <strong class="item-name">Sweet Fried Plantain (Dodo Cube Sweetener)</strong>     
+            <p class="item-description">Perfectly caramelized, over-ripe sweet plantain cubes dusted with a pinch of cinnamon sugar.</p>    
+            <img class="item-image" src="https://media.istockphoto.com/id/1448028211/photo/food-photos-various-entrees-appetizers-deserts-etc.jpg?s=1024x1024&w=is&k=20&c=yJXG097jPAmYUrPoX6O7InmOWZGaJcXXdZanBI7r4UE=" alt="Sweet fried plantain slices" width="400">
         </li>    
-        <li>    
-            <strong>Puff Puff with Honey Drizzle</strong>     
-            <p>Sweet, fluffy, and spongy deep-fried dough balls served warm with a local honey glaze.</p>    
-            <img src="https://images.unsplash.com/photo-1664993090321-b2caff794431?q=80&w=464&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Golden fried dough balls" width="400">
+        <li class="menu-item">    
+            <strong class="item-name">Puff Puff with Honey Drizzle</strong>     
+            <p class="item-description">Sweet, fluffy, and spongy deep-fried dough balls served warm with a local honey glaze.</p>    
+            <img class="item-image" src="https://images.unsplash.com/photo-1664993090321-b2caff794431?q=80&w=464&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Golden fried dough balls" width="400">
         </li>    
-        <li>    
-            <strong>Chilled Kunu Zaki Granita</strong>     
-            <p>A refreshing, iced-crushed twist on the traditional spiced millet drink, sweetened with sweet potato and ginger notes.</p>    
-            <img src="https://images.unsplash.com/photo-1634556967203-d75a96983cd3?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Chilled spiced summer beverage" width="400">
+        <li class="menu-item">    
+            <strong class="item-name">Chilled Kunu Zaki Granita</strong>     
+            <p class="item-description">A refreshing, iced-crushed twist on the traditional spiced millet drink, sweetened with sweet potato and ginger notes.</p>    
+            <img class="item-image" src="https://images.unsplash.com/photo-1634556967203-d75a96983cd3?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Chilled spiced summer beverage" width="400">
         </li>    
     </ul> 
 
     <!-- RESERVATIONS LINK -->
-    <p><a href="contact.html">Contact us for reservations at our Lagos Mainland branch</a></p> 
+    <p class="reservation-box"><a href="contact.html" class="reservation-link">Contact us for reservations at our Lagos Mainland branch</a></p> 
 
 </body>
 </html>
